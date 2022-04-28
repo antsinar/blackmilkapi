@@ -58,7 +58,7 @@ function selectAnswer(e){
     //edw mpainei to search
 
     let selectedAnswer = e.target.innerText
-    let u = (new URL("https://blackmilkapi/coffees-search/"+selectedAnswer, document.location))
+    let u = (new URL("https://blackmilkapi.herokuapp.com/coffees-search/"+selectedAnswer, document.location))
     anchor.setAttribute('href',u)
     anchor.innerText = "Αποτελέσματα αναζήτησης"
 
